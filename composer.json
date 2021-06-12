@@ -9,13 +9,18 @@
     "license": "MIT",
     "require": {
         "php": "^7.2",
+        "cviebrock/eloquent-taggable": "^6.0",
         "fideloper/proxy": "^4.0",
+        "fruitcake/laravel-cors": "^2.0",
         "grimzy/laravel-mysql-spatial": "3.0",
+        "intervention/image": "^2.5",
         "laravel/framework": "^6.0",
         "laravel/tinker": "^1.0",
+        "league/flysystem-aws-s3-v3": "^1.0",
         "tymon/jwt-auth": "1.0.0-rc.5"
     },
     "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.6",
         "facade/ignition": "^1.4",
         "fzaninotto/faker": "^1.4",
         "mockery/mockery": "^1.0",
